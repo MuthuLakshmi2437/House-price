@@ -32,7 +32,7 @@ third_feature = st.number_input(
 
 if st.button("Predict Price"):
 
-    features = np.array([[area, bedrooms, third_feature]])
+    features = np.array([[area, bedrooms, bathrooms]])
 
     prediction = model.predict(features)
 
