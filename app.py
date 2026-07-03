@@ -26,7 +26,7 @@ bedrooms = st.number_input(
 )
 
 third_feature = st.number_input(
-    "Third Feature",
+    "bathrooms",
     value=1
 )
 
